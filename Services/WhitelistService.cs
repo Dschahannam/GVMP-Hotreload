@@ -44,7 +44,7 @@ namespace GVMP_HotReload.Services
             webClient.Encoding = Encoding.UTF8;
             webClient.Headers["Content-Type"] = "application/json";
 
-            string webResponse = await webClient.UploadStringTaskAsync("https://launcher.gvmp.de:5002/player/whitelist", JsonConvert.SerializeObject(value));
+            string webResponse = await webClient.UploadStringTaskAsync("https://launcher.gvmp.de:5004/player/whitelist", JsonConvert.SerializeObject(value));
             if (webResponse.Contains("erfolgreich"))
                 _logger.Console("Whitelist", $"You can relog now. ({PROXY})");
             else
