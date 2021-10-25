@@ -1,5 +1,9 @@
 # GVMP Hotreload
 
+## Out-dated
+Since GVMP switched to rage:MP 1.1, everything works properly again. 
+So: no use for the tool.
+
 ## Usage
 Get your Launcher config and change the "config.json" with values from "C:\Program Files (x86)\GVMP-Launcher\GVMP-Launcher.exe.Config"
 
